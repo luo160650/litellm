@@ -1,0 +1,6 @@
+model_list:
+  - model_name: "*"             # 匹配所有模型名
+    litellm_params:
+      model: openai/*           # 原样透传给下游
+      api_base: http://gcli2api.zeabur.internal:7861/v1
+      api_key: luoxiaoyu939
